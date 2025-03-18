@@ -1,5 +1,5 @@
 {
-  "name": "accounting",
+  "name": "TaxQueen",
   "version": "1.0.0",
   "description": "A web based simple double entry system accounting application",
   "main": "backend/server.js",
@@ -12,7 +12,7 @@
     "pretty": "prettier --write .",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
   },
-  "author": "Captainayan",
+  "author": "Roshini",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
